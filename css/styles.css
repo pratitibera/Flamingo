@@ -288,6 +288,7 @@ nav .btn, .home_section .btn {
 	border-radius: 50%;
 	background: #EBECF0;
 	box-shadow: -10px -10px 13px 1px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.25);
+	color: #484848;
 }
 .key_points{
 	background: linear-gradient(99.74deg, #DFE0E6 0%, rgba(235, 236, 240, 0) 70.54%);
@@ -330,7 +331,7 @@ nav .btn, .home_section .btn {
 .audit_content{
 	margin: 80px 0 40px 0;
 }
-.audit_content .col-lg-3 div{
+.audit_content_round{
 	position: absolute;
 	background: #EBECF0;
 	box-shadow: -10px -10px 13px 1px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.25);
@@ -352,4 +353,57 @@ nav .btn, .home_section .btn {
 }
 .audit_content ul i{
 	color: #FF7100;
+}
+
+footer{
+	background: #5D5E60;
+	box-shadow: inset -8px -8px 1px #FFFFFF, inset 9px 9px 12px -6px rgba(0, 0, 0, 0.97);
+	border-radius: 41px;
+	margin: 100px 20px 20px 20px;
+	padding: 90px 30px 30px 30px;
+}
+
+footer ul li{
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 9px;
+}
+
+footer ul li i:before{
+	font-size: 22px;
+}
+.footer-top{
+	position: absolute;
+	right: 10%;
+	left: 10%;
+	top: -20%;
+	background: linear-gradient(91.85deg, rgba(222, 223, 227, 0.97) 2.4%, rgba(235, 236, 240, 0.93) 73.91%);
+	box-shadow: -1px -1px 2px #FFFFFF;
+	backdrop-filter: blur(13px);
+	border-radius: 56px;
+	padding: 40px 40px;
+}
+.footer-top div{
+	color: #2C6792;
+}
+.social_media_section{
+	width: 140px;
+	margin: 70px auto 20px auto;
+}
+.social_media_section i{
+	color: #12131A;
+	font-size: 34px;
+}
+.landing_button3{
+	background: linear-gradient(94.97deg, #DCDDE2 4.48%, #E2E3E7 7.97%, #EBECF0 44.7%, #E4E6EB 44.7%)!important;
+	border: 2px solid #FFFFFF!important;
+	box-shadow: -8px -8px 10px #FFFFFF, 6px 5px 10px 3px rgba(54, 54, 54, 0.24)!important;
+	border-radius: 31px;
+	padding: 10px 0px!important;
+	font-size: 12px;
+	width: 250px!important;
+	color: #000!important;
+}
+.home_section_collabs{
+	height: 475px;
 }
