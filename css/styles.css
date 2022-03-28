@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&family=Reem+Kufi:wght@400;500;700&family=Roboto:wght@400;500;700&family=Sniglet&display=swap');
+.font-poppins {
+	font-family: 'Poppins', sans-serif;
+}
+
+.font-raleway {
+	font-family: 'Raleway', sans-serif;
+}
+
+.font-kufi {
+	font-family: 'Reem Kufi', sans-serif;
+}
+
+.font-sniglet {
+	font-family: 'Sniglet', cursive;
+}
+
+
+/* Global classes */
+
+.btn:focus,
+.btn:active {
+	outline: none !important;
+	box-shadow: none;
+}
+
+input:focus {
+	border-top: none;
+	outline: none;
+}
+
+select:focus {
+	border: none;
+	outline: none;
+}
+
+input::placeholder {
+	font-size: 13px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.w-100 {
+	width: 100%!important;
+}
+
+.w-70 {
+	width: 70%;
+}
+
+.h-100 {
+	height: 100%;
+}
+
+.fo-12 {
+	font-size: 12px;
+}
+
+.fo-13 {
+	font-size: 13px;
+}
+
+.fo-14 {
+	font-size: 14px;
+}
+
+.fo-15 {
+	font-size: 15px;
+}
+
+.fo-16 {
+	font-size: 16px;
+}
+
+.fo-17 {
+	font-size: 17px;
+}
+
+.fo-18 {
+	font-size: 18px;
+}
+
+.fo-20 {
+	font-size: 20px;
+}
+
+.fo-22 {
+	font-size: 22px;
+}
+
+.fo-24 {
+	font-size: 24px;
+}
+
+.fo-26 {
+	font-size: 26px;
+}
+
+.fo-28 {
+	font-size: 28px;
+}
+
+.fo-30 {
+	font-size: 30px!important;
+}
+
+.fo-32 {
+	font-size: 32px;
+}
+
+.fo-34 {
+	font-size: 34px;
+}
+
+.fo-36 {
+	font-size: 36px;
+}
+
+.fo-38 {
+	font-size: 38px;
+}
+
+.fo-70 {
+	font-size: 70px;
+}
+
+.fw-400 {
+	font-weight: 400;
+}
+
+.fw-500 {
+	font-weight: 500;
+}
+
+.fw-600 {
+	font-weight: 600;
+}
+
+.fw-700 {
+	font-weight: 700;
+}
+
+.fw-800 {
+	font-weight: 800;
+}
+
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+
+.cursorPointer {
+	cursor: pointer;
+}
+
+
+/* 3-bars and cross icon animation */
+
+.menu-btn__burger {
+	width: 25px;
+	height: 3px;
+	background: #000000;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+	transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+	content: '';
+	position: absolute;
+	width: 25px;
+	height: 3px;
+	background: #000000;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+	transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger::before {
+	transform: translateY(-9px);
+}
+
+.menu-btn__burger::after {
+	transform: translateY(9px);
+}
+
+
+/* ANIMATION */
+
+.menu-btn.open .menu-btn__burger {
+	transform: translateX(-50px);
+	background: transparent;
+	box-shadow: none;
+}
+
+.menu-btn.open .menu-btn__burger::before {
+	transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open .menu-btn__burger::after {
+	transform: rotate(-45deg) translate(35px, 35px);
+}
+
+nav {
+	background: linear-gradient(90deg, #E8EAF1 2.4%, rgba(235, 236, 240, 0) 98.82%);
+	box-sizing: border-box;
+	box-shadow: 8px 7px 21px rgba(0, 0, 0, 0.15), -6px -7px 11px rgba(255, 255, 255, 0.84);
+	/* filter: drop-shadow() drop-shadow(); */
+}
+
+nav a {
+	color: #000;
+}
+
+.nav-link {
+	font-size: 14px;
+	padding-left: 1.5rem!important;
+	padding-right: 1.5rem!important;
+}
+
+.nav-link.active {
+	background: #EBECF0;
+	box-shadow: inset -4px -4px 4px #FFFFFF, inset 5px 5px 2px rgba(0, 0, 0, 0.12);
+	border-radius: 29px;
+}
+
+nav .btn, .home_section .btn {
+	background: linear-gradient(90.16deg, #FF913A 2.17%, #F88224 50.45%, #E46E10 98.39%);
+	box-shadow: -8px -8px 10px #FFFFFF, 6px 5px 10px 3px rgba(54, 54, 54, 0.24);
+	border-radius: 31px;
+	color: #fff;
+	padding: 10px 60px;
+}
+
+.landing-text1 {
+	color: #555770;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.landing-text2 {
+	color: #555770;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.landing-text3 {
+	color: #606060;
+}
+
+.landing_button1 {
+	background: linear-gradient(90.16deg, #FF913A 2.17%, #F88224 50.45%, #E46E10 98.39%);
+	box-shadow: -8px -8px 10px #FFFFFF, 6px 5px 10px 3px rgba(54, 54, 54, 0.24);
+	border-radius: 31px;
+	padding: 10px;
+	font-size: 14px;
+	width: 220px;
+}
+
+.landing_button2 {
+	background: linear-gradient(94.97deg, #DCDDE2 4.48%, #E2E3E7 7.97%, #EBECF0 44.7%, #E4E6EB 44.7%);
+	border: 2px solid #FFFFFF;
+	box-sizing: border-box;
+	box-shadow: -8px -8px 10px #FFFFFF, 6px 5px 10px 3px rgba(54, 54, 54, 0.24);
+	border-radius: 31px;
+	padding: 10px;
+	font-size: 14px;
+	width: 220px;
+}
+
+.page-title1 {
+	color: #FE9D2D;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home_section .fo-30{
+	color: #003966;
+}
+.home_section .fo-14{
+	color: #004060;
+}
+.circular_block{
+	width: 240px;
+	height: 240px;
+	border-radius: 50%;
+	background: #EBECF0;
+	box-shadow: -10px -10px 13px 1px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.25);
+}
+.key_points{
+	background: linear-gradient(99.74deg, #DFE0E6 0%, rgba(235, 236, 240, 0) 70.54%);
+	box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+	border-radius: 15px;
+	color: #212121;
+	text-align: center;
+	font-size: 16px;
+	padding: 13px;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+.key_points2 .card{
+	background: #EBECF0;
+	border-radius: 56px;
+	height: 400px;
+	box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2), -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+}
+.key_points2 .card .circular_block{
+	width: 170px;
+	height: 170px;
+}
+.home_section ul li{
+	color: #285D89;
+	font-size: 13px;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+.home_section ul i{
+	background: #EBECF0;
+	border-radius: 50%;
+	color: #165688;
+	font-size: 11px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.home_section_brands img{
+	width: 14.2%;
+}
+.audit_content{
+	margin: 80px 0 40px 0;
+}
+.audit_content .col-lg-3 div{
+	position: absolute;
+	background: #EBECF0;
+	box-shadow: -10px -10px 13px 1px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.25);
+	height: 230px;
+	width: 230px;
+	border-radius: 50%;
+	right: -30%;
+	top: -25%;
+	z-index: 9;
+}
+.audit_content .col-lg-9{
+	background: #EBECF0;
+	box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2), -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+	border-radius: 56px;
+	padding-top: 150px;
+}
+.audit_content ul li{
+	color: #000000;
+}
+.audit_content ul i{
+	color: #FF7100;
+}

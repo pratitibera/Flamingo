@@ -1,0 +1,110 @@
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {
+	nav {
+		max-width: 1200px;
+		margin: 40px auto 0px auto;
+		border-radius: 50px;
+		border: 2px solid #FFFFFF;
+	}
+	.home_section{
+		max-width: 1000px;
+		margin: auto;
+		background: #EBECF0;
+		box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2), -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+		border-radius: 56px;
+	}
+	.audit_content .col-lg-9{
+		padding-left: 100px;
+		padding-top: 15px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+	/* Global classes for mobile */
+	.mfo-35 {
+		font-size: 35px!important;
+	}
+	.mfo-32 {
+		font-size: 32px!important;
+	}
+	.mfo-30 {
+		font-size: 30px!important;
+	}
+	.mfo-28 {
+		font-size: 28px!important;
+	}
+	.mfo-25 {
+		font-size: 25px!important;
+	}
+	.mfo-24 {
+		font-size: 24px!important;
+	}
+	.mfo-22 {
+		font-size: 22px!important;
+	}
+	.mfo-20 {
+		font-size: 20px!important;
+	}
+	.mfo-18 {
+		font-size: 18px!important;
+	}
+	.mfo-17 {
+		font-size: 17px!important;
+	}
+	.mfo-16 {
+		font-size: 16px!important;
+	}
+	.mfo-15 {
+		font-size: 15px!important;
+	}
+	.mfo-14 {
+		font-size: 14px!important;
+	}
+	.mfo-13 {
+		font-size: 13px!important;
+	}
+	.mfo-12 {
+		font-size: 12px!important;
+	}
+	.mfo-11 {
+		font-size: 11px!important;
+	}
+	.mfo-10 {
+		font-size: 10px!important;
+	}
+	.mow-100 {
+		width: 100%!important;
+	}
+	/* Custom classes */
+	.landing_button1,
+	.landing_button2 {
+		padding: 10px;
+		width: 150px;
+	}
+	.nav-link {
+		padding-top: 13px;
+		padding-bottom: 13px;
+	}
+	nav .btn, .home_section .btn {
+		margin: 10px auto 20px auto;
+	}
+	.home_section{
+		margin: auto;
+		width: 90%;
+		background: #EBECF0;
+		box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2), -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+		border-radius: 56px;
+	}
+	.audit_content .col-lg-3{
+		height: 100px;
+	}
+	.audit_content .col-lg-3 div{
+		right: 10%;
+		left: 10%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
