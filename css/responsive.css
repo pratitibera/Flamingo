@@ -128,4 +128,7 @@
 	.landing_button3{
 		width: 100%!important;
 	}
+	footer .col-xl-5, footer .xol-xl-3, footer .col-xl-4{
+		padding: 0;
+	}
 }
