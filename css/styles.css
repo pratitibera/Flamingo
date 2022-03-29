@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&family=Reem+Kufi:wght@400;500;700&family=Roboto:wght@400;500;700&family=Sniglet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&family=Rationale&family=Reem+Kufi:wght@400;500;700&family=Roboto:wght@400;500;700&family=Sniglet&display=swap');
+
 .font-poppins {
 	font-family: 'Poppins', sans-serif;
 }
@@ -14,7 +15,9 @@
 .font-sniglet {
 	font-family: 'Sniglet', cursive;
 }
-
+.font-rationale{
+	font-family: 'Rationale', sans-serif;
+}
 
 /* Global classes */
 
@@ -49,7 +52,12 @@ ul {
 .w-70 {
 	width: 70%;
 }
-
+.w-60{
+	width: 60%;
+}
+.w-40{
+	width: 40%;
+}
 .h-100 {
 	height: 100%;
 }
@@ -288,7 +296,7 @@ nav .btn, .home_section .btn {
 .home_section .fo-30, .blockchain_section .fo-30{
 	color: #003966;
 }
-.home_section .fo-14, .blockchain_section .fo-14{
+.home_section .fo-14, .blockchain_section .fo-14, .trust_seal_section .fo-14{
 	color: #004060;
 }
 .circular_block{
@@ -452,4 +460,19 @@ footer ul li i:before{
 	width: 353px;
 	height: 352px;
 	margin: auto;
+}
+.trust_seal_section_text1{
+	background: linear-gradient(180deg, #FEB766 0%, #E97E02 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-size: 84px;
+}
+.trust_seal_section_img{
+	position: absolute;
+	left: -10%;
+	top: -20%;
+	width: 200%;
 }

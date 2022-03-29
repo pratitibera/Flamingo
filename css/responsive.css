@@ -1,7 +1,3 @@
-@media only screen and (min-width: 576px) {}
-
-@media only screen and (min-width: 992px) {}
-
 @media only screen and (min-width: 1200px) {
 	nav {
 		max-width: 1200px;
@@ -15,6 +11,16 @@
 		background: #EBECF0;
 		box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2), -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
 		border-radius: 56px;
+	}
+	.trust_seal_section{
+		max-width: 1000px;
+		margin: auto auto 150px auto;
+	}
+	.trust_seal_section .col-md-10{
+		background: #EBECF0;
+		box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2), -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+		border-radius: 56px;
+		height: 600px;
 	}
 	.blockchain_section{
 		max-width: 1000px;
@@ -138,5 +144,8 @@
 	}
 	.audit_container{
 		padding: 0;
+	}
+	.trust_seal_section .font-raleway{
+		text-align: center;
 	}
 }
