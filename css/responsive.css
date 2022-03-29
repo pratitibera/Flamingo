@@ -16,6 +16,11 @@
 		box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2), -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
 		border-radius: 56px;
 	}
+	.blockchain_section{
+		max-width: 1000px;
+		margin: 100px auto -70px auto;
+		background: #EBECF0;
+	}
 	.collab_section{
 		max-width: 1000px;
 		margin: 200px auto auto auto;
@@ -96,7 +101,7 @@
 	nav .btn, .home_section .btn {
 		margin: 10px auto 20px auto;
 	}
-	.home_section{
+	.home_section, .blockchain_section{
 		margin: auto;
 		width: 90%;
 		background: #EBECF0;
@@ -129,6 +134,9 @@
 		width: 100%!important;
 	}
 	footer .col-xl-5, footer .xol-xl-3, footer .col-xl-4{
+		padding: 0;
+	}
+	.audit_container{
 		padding: 0;
 	}
 }
