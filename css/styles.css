@@ -225,6 +225,9 @@ nav a {
 .navbar-brand{
 	color: #E46E10;
 }
+.navbar-brand img{
+	margin-top: -10px;
+}
 .nav-link {
 	font-size: 14px;
 	padding-left: 1.5rem!important;
