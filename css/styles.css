@@ -447,6 +447,12 @@ footer ul li i:before{
 	width: 250px!important;
 	color: #000!important;
 }
+.landing_button3:hover{
+	background: linear-gradient(90.16deg, #FF913A 2.17%, #F88224 50.45%, #E46E10 98.39%)!important;
+	box-shadow: -8px -8px 10px #FFFFFF, 6px 5px 10px 3px rgba(54, 54, 54, 0.24)!important;
+	border: none!important;
+	color: #fff!important;
+}
 .home_section_collabs{
 	height: 475px;
 }
